@@ -9,6 +9,7 @@ public class Wood3 {
 
     @Autowired
     public Wood3(Rabbit4 rabbit) {
+//        System.out.println("Wood3 -> bean is created");
         this.rabbit = rabbit;
     }
 
